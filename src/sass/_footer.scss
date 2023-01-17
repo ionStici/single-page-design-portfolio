@@ -1,0 +1,89 @@
+.footer {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 0 16px 32px 16px;
+
+    @media only screen and (min-width: 768px) {
+        max-width: 770px;
+        padding: 0 40px 56px 40px;
+    }
+
+    @media only screen and (min-width: 1200px) {
+        max-width: 1110px;
+        padding-bottom: 64px;
+    }
+
+    nav {
+        margin: 0;
+    }
+
+    .btn {
+        @media only screen and (min-width: 1200px) {
+            margin-left: auto;
+        }
+    }
+
+    &__book {
+        background-color: #030303;
+        border-radius: 10px;
+        margin-bottom: 40px;
+        text-align: center;
+        padding: 48px 24px;
+
+        @media only screen and (min-width: 768px) {
+            padding: 56px 38px 64px 38px;
+            margin-bottom: 56px;
+        }
+
+        @media only screen and (min-width: 1200px) {
+            text-align: left;
+            display: flex;
+            align-items: center;
+            padding: 81px 94px 80px 65px;
+        }
+    }
+
+    &__text-box {
+        color: #fff7f0;
+
+        @media only screen and (min-width: 1200px) {
+            width: 540px;
+        }
+    }
+
+    &__h2 {
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 33px;
+        margin-bottom: 24px;
+
+        @media only screen and (min-width: 768px) {
+            font-size: 32px;
+            line-height: 40px;
+            margin-bottom: 26px;
+        }
+
+        @media only screen and (min-width: 1200px) {
+            font-size: 40px;
+            line-height: 50px;
+            margin-bottom: 25px;
+        }
+    }
+
+    &__p {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+        margin-bottom: 24px;
+
+        @media only screen and (min-width: 768px) {
+            font-size: 18px;
+            line-height: 28px;
+            margin-bottom: 26px;
+        }
+
+        @media only screen and (min-width: 1200px) {
+            margin: 0;
+        }
+    }
+}
