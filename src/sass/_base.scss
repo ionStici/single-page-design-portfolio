@@ -1,3 +1,66 @@
+// CSS RESET
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+button {
+    font: inherit;
+}
+
+// GENERAL STYLES
+
 body {
     font-family: 'Plus Jakarta Sans', sans-serif;
+    background-color: #fff7f0;
 }
+
+.h1 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 45px;
+    color: #030303;
+    margin-bottom: 16px;
+
+    @media only screen and (min-width: 768px) {
+        font-size: 44px;
+        line-height: 55px;
+        margin-bottom: 27px;
+    }
+
+    @media only screen and (min-width: 1200px) {
+        font-size: 56px;
+        line-height: 71px;
+        margin-bottom: 23px;
+    }
+}
+
+.p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #7a746e;
+    padding: 0 29px;
+
+    @media only screen and (min-width: 768px) {
+        font-size: 18px;
+        line-height: 28px;
+
+        width: 573px;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    @media only screen and (min-width: 1200px) {
+        width: 730px;
+    }
+}
+
+// END

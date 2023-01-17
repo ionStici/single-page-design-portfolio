@@ -1,0 +1,39 @@
+.header {
+    max-width: 1111px;
+    margin: 0 auto;
+    padding: 16px 16px 32px 16px;
+    text-align: center;
+
+    @media only screen and (min-width: 768px) {
+        padding: 34px 40px 64px 40px;
+    }
+
+    @media only screen and (min-width: 1200px) {
+        padding-bottom: 80px;
+    }
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 32px;
+
+    @media only screen and (min-width: 768px) {
+        margin-bottom: 64px;
+    }
+
+    @media only screen and (min-width: 1200px) {
+        margin-bottom: 66px;
+    }
+}
+
+.logo {
+    width: 48px;
+    height: 48px;
+
+    @media only screen and (min-width: 768px) {
+        width: 64px;
+        height: 64px;
+    }
+}
