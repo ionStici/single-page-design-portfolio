@@ -411,13 +411,13 @@ body {
   display: flex;
   justify-content: center;
   overflow: hidden;
-  width: 100%;
 }
 .slider__slide {
   width: 270px;
   height: 180px;
   margin: 0 7.5px 0 7.5px;
   border-radius: 10px;
+  transition: transform 0.2s;
 }
 @media only screen and (min-width: 768px) {
   .slider__slide {
@@ -426,7 +426,6 @@ body {
     margin: 0 15px 0 15px;
   }
 }
-
 .footer {
   max-width: 500px;
   margin: 0 auto;
